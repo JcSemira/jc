@@ -27,6 +27,19 @@
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
+  .menubranding, .menunav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden; }
+  .menu-nav {
+    margin: 0;
+    padding: 0;
+    background: #373737; }
 
 * {
   box-sizing: border-box; }
